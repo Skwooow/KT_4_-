@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body {
+            background-color: rgb(255, 225, 255);
+        }
+
+
+        .flex-container {
+            justify-content: center;
+            display: flex;
+            /* float: left; */
+            /* flex-direction: column; */
+            /* margin-left: 23em; */
+            gap: 1.1em;
+            margin-top: 3em;
+            color: white;
+
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+
+        .flex-item {
+            text-align:center;
+            font-size: 1em;
+            padding: 1.2em;
+            height: 250px;
+        }
+
+
+        .div text {
+            text-align: end;
+            /* font-size: 15px; */
+        }
+
+       
+        .main-text {
+            color: rgb(38, 0, 255);
+            
+            /* margin-left: 0.6em; */
+            text-align: left;
+            text-shadow: 5px 4px 10px #f428ff;
+            font-size: 25px;
+        }
+
+
+        .color1_2 {background-color: rgb(1, 0, 62); flex-basis: 250px; flex-shrink:1; 
+                background-image: url(https://www.imperiatechno.ru/uploads/other/default/35874000/a3eb9b35/89f635aa/f2259adb.jpeg); background-size: 350px;}
+        
+        .color1_3 {background-color: rgb(1, 0, 62); flex-basis: 250px; flex-shrink:1; 
+                background-image: url(https://nevateka.ru/upload/iblock/9f2/d7594meckc8x7x90u9gybj81b53w3hc3/e1cdf22f-d568-4e21-a842-49db1d86d28b.jpg); background-size: 360px;}
+
+
+
+        a:link {color: rgb(0, 70, 210);}
+        a:visited {color: rgb(124, 0, 225);}
+        a:hover {color: rgb(255, 0, 208);}
+
+
+        .color1 {background-color: rgb(1, 0, 62); flex-basis: 250px; flex-shrink:1;}
+
+        @media (max-width: 580px) {
+            .flex-container {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 580px) {
+        .main-text {
+            margin-top: 5px;
+            font-size: 20px;
+        }}
+
+        @media (max-width: 300px) {
+            .main-text {
+            margin-top: 5px;
+            font-size: 15px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="main-text"><a href="../main.html"><h1>Гаджеты</h1></div>
+
+
+        <div class="flex-container">
+            <div class="flex-item color1_2"><img src="">
+                <a href="./самсунгтелевизоры.html">
+                <div class="text"><h3>самсунг телевизоры</h3></div></div>
+    
+            <div class="flex-item color1_3"><img src="">
+                <a href="./lgтелевизоры.html">
+                <div class="text"><h3>lg</h3></div></div>
+    
+
+
+</body>
+</html>

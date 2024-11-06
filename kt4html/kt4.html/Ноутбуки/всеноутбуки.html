@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          
+
+          body {
+            background-color: rgb(255, 225, 255);
+        }
+
+
+        .flex-container {
+            justify-content: center;
+            display: flex;
+            /* float: left; */
+            /* flex-direction: column; */
+            /* margin-left: 23em; */
+            gap: 1.1em;
+            margin-top: 3em;
+            color: white;
+
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+
+        .flex-item {
+            text-align:center;
+            font-size: 1em;
+            padding: 1.2em;
+            height: 250px;
+        }
+
+
+        .div text {
+            text-align: end;
+            /* font-size: 15px; */
+        }
+
+       
+        .main-text {
+            color: rgb(38, 0, 255);
+            
+            /* margin-left: 0.6em; */
+            text-align: left;
+            text-shadow: 5px 4px 10px #f428ff;
+            font-size: 25px;
+        }
+
+
+        .color1_2 {background-color: rgb(1, 0, 62); flex-basis: 250px; flex-shrink:1; 
+                background-image: url(https://avatars.mds.yandex.net/i?id=ec89b7f601e32398ad906d6d53705f13b9b4a606-8251944-images-thumbs&n=13); background-size: 500px;}
+        
+        .color1_3 {background-color: rgb(1, 0, 62); flex-basis: 250px; flex-shrink:1; 
+                background-image: url(https://avatars.mds.yandex.net/i?id=8c6a07e43523a3777d0b69060b5196f92ad1adcc-8312878-images-thumbs&n=13); background-size: 410px;}
+
+
+
+        a:link {color: rgb(0, 70, 210);}
+        a:visited {color: rgb(124, 0, 225);}
+        a:hover {color: rgb(255, 0, 208);}
+
+.color1 {background-color: rgb(1, 0, 62); flex-basis: 250px; flex-shrink:1;}
+
+
+@media (max-width: 580px) {
+            .flex-container {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 580px) {
+        .main-text {
+            margin-top: 5px;
+            font-size: 20px;
+        }}
+
+        @media (max-width: 300px) {
+            .main-text {
+            margin-top: 5px;
+            font-size: 15px;
+            }
+        }
+
+</style>
+    
+</head>
+<body>
+
+
+    <div class="main-text"><a href="../main.html"><h1>Гаджеты</h1></div>
+
+        <div class="flex-container">
+            <div class="flex-item color1_2"><img src="">
+                <a href="./эплноутуки.html">
+                <div class="text"><h3>макбуки</h3></div></div>
+    
+            <div class="flex-item color1_3"><img src="">
+                <a href="./asusноутбуки.html">
+                <div class="text"><h3>asus</h3></div></div>
+    
+
+
+</body>
+</html>
